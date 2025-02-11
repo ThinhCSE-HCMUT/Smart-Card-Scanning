@@ -1,0 +1,122 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: #444;
+    font-weight: bold;
+}
+
+h2 {
+    padding-left: 10px;
+    color: #555;
+}
+
+/* Navigator styles */
+.navigator {
+    background-color: #0795df;
+    overflow: hidden;
+    border-bottom: 4px solid blue;
+    padding: 10px 0;
+}
+
+.logo {
+    height: 80px;
+    padding-left: 50px;
+}
+
+.navigator a {
+    float: left;
+    text-align: center;
+}
+
+.navigator a.split {
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fa-solid {
+    padding: 0 20px;
+}
+
+/* Table styles */
+.table {
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer styles */
+/* Footer styles */
+footer {
+    position: fixed; /* Cố định vị trí */
+    bottom: 0; /* Dính vào cuối trang */
+    width: 100%; /* Chiều rộng chiếm toàn bộ trang */
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Giảm padding để phù hợp với cố định */
+    z-index: 10; /* Đảm bảo footer luôn hiển thị phía trên */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0795df;
+}
+
+/* Đảm bảo nội dung không bị footer che */
+body {
+    padding-bottom: 60px; /* Chừa khoảng trống để nội dung không bị footer che */
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0795df;
+    border-color: #0795df;
+}
+
+.pagination .page-link {
+    color: #0795df;
+}
+
+.pagination .page-link:hover {
+    color: #0056b3;
+}
+

@@ -1,0 +1,4 @@
+led_rgb.c:10:6:ledRgb_init	8	static
+led_rgb.c:16:6:rgb_color	24	static
+led_rgb.c:26:6:SetLedState	24	static
+led_rgb.c:62:6:blinkClolor	16	static

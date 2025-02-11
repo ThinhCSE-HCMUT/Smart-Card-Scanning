@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 Web Server</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="navigator">
+    <a href="#home"><img src="./images/logo.png" alt="logo" class="logo"></a>
+    <a href="#notification" class="split"><i class="fa-solid fa-envelope fa-2xl" style="color: #ffffff;"></i></a>
+  </div>
+  <main>
+    <h1>RFID Card Management</h1>
+    <div class="container">
+        <h2>Card Reading History</h2>
+        <table class="table table-hover table-bordered table-striped">
+            <thead class="table-primary">
+              <tr>
+                <th scope="col">No.</th>
+                <th scope="col">ID Card</th>
+                <th scope="col">Name</th>
+                <th scope="col">Date</th>
+                <th scope="col">Time</th>
+                <th scope="col">Is Member?</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <!-- Dữ liệu sẽ được cập nhật tại đây -->
+            </tbody>
+        </table>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; Logic Design Project Group 9. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-lg"></i></a>
+        <a href="https://github.com" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
+  <script src="https://kit.fontawesome.com/2b77dd051a.js" crossorigin="anonymous"></script>
+</body>
+</html>

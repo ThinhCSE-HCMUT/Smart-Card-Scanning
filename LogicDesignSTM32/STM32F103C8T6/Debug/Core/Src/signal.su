@@ -1,0 +1,4 @@
+signal.c:11:6:signal_correct	8	static
+signal.c:36:6:signal_wrong	8	static
+signal.c:44:6:signal_reset	8	static
+signal.c:50:6:signal_waiting	8	static

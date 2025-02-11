@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;STM32F103C8T6/LogicDesignProject.ioc&apos; to &apos;STM32F103C8T6.ioc&apos;" description="Rename resource &apos;LogicDesignProject.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="LogicDesignProject.ioc" name="STM32F103C8T6.ioc" stamp="1729860921493" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;STM32F103C8T6/Core/Inc/lcd.c&apos; to &apos;lcd.h&apos;" description="Rename resource &apos;lcd.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/lcd.c" name="lcd.h" stamp="1729861789165" updateReferences="true"/>
+</session>

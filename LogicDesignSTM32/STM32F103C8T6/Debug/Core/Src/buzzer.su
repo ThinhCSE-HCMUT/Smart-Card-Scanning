@@ -1,0 +1,2 @@
+buzzer.c:10:6:right_buzzer	8	static
+buzzer.c:14:6:wrong_buzzer	8	static
