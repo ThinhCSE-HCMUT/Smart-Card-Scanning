@@ -35,7 +35,7 @@ The following image shows the hardware components, including the smart card scan
 The GIF below demonstrates how the smart card is scanned and the system responds accordingly.  
 
 <p align="center">
-  <img src="Demo/demo_project.gif" width="600">
+  <img src="Demo/demo_project.gif" width="400">
   <br/>
   <i>Smart Card Scanning system demo</i>
 </p>
