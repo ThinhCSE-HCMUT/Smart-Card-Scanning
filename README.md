@@ -6,7 +6,7 @@
 This project is a **Smart Card Scanning System** designed for a **smart door access control** in my house. The system uses RFID technology to authenticate users and grant or deny access based on card data in database system. 
 
 ## 🔹 Features
-- ✅ **Scan & Authenticate Smart Cards**: using RFID technology
+- ✅ **Scan & Authenticate Smart Cards**: Use RFID technology
 - ✅ **Access Control**: Grant or deny entry based on stored credentials
 - ✅ **Logging System**: Record successful and failed access attempts to the Web Server
 - ✅ **LCD Display**: Show authentication status
