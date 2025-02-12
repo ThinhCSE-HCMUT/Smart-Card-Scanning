@@ -11,7 +11,7 @@ This project is a **Smart Card Scanning System** designed for a **smart door acc
 - ✅ **Logging System**: Record successful and failed access attempts to the Web Server
 - ✅ **LCD Display**: Show authentication status
 - ✅ **Buzzer/LED Alerts**: Show access granted/denied
-- ✅ **Storage**: Store authorized card IDs in a simple database.
+- ✅ **Storage**: Store authorized card IDs in a simple database
 
 ## 🛠️ Technologies Used
 - **Microcontroller**: ESP32 and STM32
@@ -20,7 +20,27 @@ This project is a **Smart Card Scanning System** designed for a **smart door acc
 - **Communication Interfaces**: SPI, I2C, UART
 - **Additional Components**: LCD display, Buzzer, LED RGB and a power supply system
 ## 📸 Demonstration
-Include GIFs or images of the system in action.
+Below are images and a demo GIF showcasing the **Smart Card Scanning** system in action.  
+
+### 🔧 Hardware Setup
+The following image shows the hardware components, including the smart card scanner, microcontroller, and connected peripherals.  
+
+<p align="center">
+  <img src="Demo/hardware_image.jpg" width="600">
+  <br/>
+  <i>Hardware setup of the Smart Card Scanning system</i>
+</p>
+
+### 🎥 System in Action
+The GIF below demonstrates how the smart card is scanned and the system responds accordingly.  
+
+<p align="center">
+  <img src="Demo/demo_project.gif" width="600">
+  <br/>
+  <i>Smart Card Scanning system demo</i>
+</p>
+
+This system enables **secure and efficient access control**, making it ideal for home security applications. 🚀  
 ## 🚀 Future Improvements
 - Integration with a mobile app for remote access management
 - Adding WiFi/Bluetooth for IoT connectivity
