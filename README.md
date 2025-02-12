@@ -42,6 +42,7 @@ The GIF below demonstrates how the smart card is scanned and the system responds
 
 This system enables **secure and efficient access control**, making it ideal for home security applications. 🚀  
 ## 🚀 Future Improvements
+While the **Smart Card Scanning** system is already functional and effective, there are several enhancements that could further improve its performance, security, and usability. Below are some key areas for future development:
 - Integration with a mobile app for remote access management
 - Adding WiFi/Bluetooth for IoT connectivity
 - Replacing primitive databases with modern database management systems such as SQLite, MySQL or Firebase
